@@ -1,0 +1,25 @@
+{
+  "inputs" : [
+    { "to": 0, "name": "in", "from": 3, "polarity": "input", "ordinal": 1 }
+  ],
+  "outputs" : [
+    { "to": 0, "name": "out", "from": 0, "polarity": "output", "ordinal": 2 }
+  ],
+  "coverageList" : [
+    { "vector": [["+", 1]],  "goldenOutput": "0", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 8]],  "goldenOutput": "0", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 12]], "goldenOutput": "0", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 14]], "goldenOutput": "0", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 15]], "goldenOutput": "1", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 7]],  "goldenOutput": "1", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 11]], "goldenOutput": "1", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 5]],  "goldenOutput": "1", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 10]], "goldenOutput": "0", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 13]], "goldenOutput": "1", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 6]],  "goldenOutput": "0", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 3]],  "goldenOutput": "1", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 9]],  "goldenOutput": "0", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 4]],  "goldenOutput": "0", "coverage": { "sa0": [], "sa1": [] } },
+    { "vector": [["+", 2]],  "goldenOutput": "0", "coverage": { "sa0": [], "sa1": [] } }
+  ]
+}

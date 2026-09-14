@@ -1,0 +1,31 @@
+! Begin Test Program
+! Disable Test Reset line
+TRST OFF;
+! Initialize UUT
+STATE RESET; 
+! End IR scans in DRPAUSE
+ENDIR DRPAUSE; 
+! Trailer & Headers for IR & DR
+HIR 0;
+TIR 0;
+HDR 0;
+TDR 0;
+! INTEST Instruction
+SIR 4 TDI (4);
+! San Test Vectors through the scan chain with length:  4
+SDR 4 TDI (1) MASK (f) TDO (0); 
+SDR 4 TDI (8) MASK (f) TDO (0); 
+SDR 4 TDI (c) MASK (f) TDO (1); 
+SDR 4 TDI (e) MASK (f) TDO (1); 
+SDR 4 TDI (f) MASK (f) TDO (1); 
+SDR 4 TDI (7) MASK (f) TDO (1); 
+SDR 4 TDI (b) MASK (f) TDO (1); 
+SDR 4 TDI (5) MASK (f) TDO (0); 
+SDR 4 TDI (a) MASK (f) TDO (0); 
+SDR 4 TDI (d) MASK (f) TDO (1); 
+SDR 4 TDI (6) MASK (f) TDO (0); 
+SDR 4 TDI (3) MASK (f) TDO (1); 
+SDR 4 TDI (9) MASK (f) TDO (0); 
+SDR 4 TDI (4) MASK (f) TDO (0); 
+SDR 4 TDI (2) MASK (f) TDO (0); 
+
