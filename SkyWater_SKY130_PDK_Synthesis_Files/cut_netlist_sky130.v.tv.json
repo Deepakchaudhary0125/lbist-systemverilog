@@ -1,0 +1,340 @@
+{
+  "inputs" : [
+    {
+      "to" : 0,
+      "ordinal" : 1,
+      "name" : "in",
+      "polarity" : "input",
+      "from" : 3
+    }
+  ],
+  "coverageList" : [
+    {
+      "vector" : [
+        [
+          "+",
+          1
+        ]
+      ],
+      "goldenOutput" : "0",
+      "coverage" : {
+        "sa0" : [
+
+        ],
+        "sa1" : [
+          "in [1]",
+          "out",
+          "_7_.X",
+          "_7_.A2"
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          8
+        ]
+      ],
+      "goldenOutput" : "0",
+      "coverage" : {
+        "sa0" : [
+
+        ],
+        "sa1" : [
+          "out",
+          "_7_.X",
+          "in [2]",
+          "_7_.B1"
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          12
+        ]
+      ],
+      "goldenOutput" : "1",
+      "coverage" : {
+        "sa0" : [
+          "out",
+          "_7_.X",
+          "_7_.B2",
+          "in [2]",
+          "in [3]",
+          "_7_.B1"
+        ],
+        "sa1" : [
+
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          14
+        ]
+      ],
+      "goldenOutput" : "1",
+      "coverage" : {
+        "sa1" : [
+
+        ],
+        "sa0" : [
+          "out",
+          "_7_.X",
+          "_7_.B2",
+          "in [2]",
+          "in [3]",
+          "_7_.B1"
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          15
+        ]
+      ],
+      "goldenOutput" : "1",
+      "coverage" : {
+        "sa0" : [
+          "out",
+          "_7_.X"
+        ],
+        "sa1" : [
+
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          7
+        ]
+      ],
+      "goldenOutput" : "1",
+      "coverage" : {
+        "sa0" : [
+          "in [1]",
+          "out",
+          "_7_.X",
+          "_7_.A1",
+          "in [0]",
+          "_7_.A2"
+        ],
+        "sa1" : [
+
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          11
+        ]
+      ],
+      "goldenOutput" : "1",
+      "coverage" : {
+        "sa1" : [
+
+        ],
+        "sa0" : [
+          "in [1]",
+          "out",
+          "_7_.X",
+          "_7_.A1",
+          "in [0]",
+          "_7_.A2"
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          5
+        ]
+      ],
+      "goldenOutput" : "0",
+      "coverage" : {
+        "sa0" : [
+
+        ],
+        "sa1" : [
+          "in [1]",
+          "out",
+          "_7_.X",
+          "_7_.B2",
+          "in [3]",
+          "_7_.A2"
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          10
+        ]
+      ],
+      "goldenOutput" : "0",
+      "coverage" : {
+        "sa0" : [
+
+        ],
+        "sa1" : [
+          "out",
+          "_7_.X",
+          "in [2]",
+          "_7_.A1",
+          "in [0]",
+          "_7_.B1"
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          13
+        ]
+      ],
+      "goldenOutput" : "1",
+      "coverage" : {
+        "sa0" : [
+          "out",
+          "_7_.X",
+          "_7_.B2",
+          "in [2]",
+          "in [3]",
+          "_7_.B1"
+        ],
+        "sa1" : [
+
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          6
+        ]
+      ],
+      "goldenOutput" : "0",
+      "coverage" : {
+        "sa1" : [
+          "out",
+          "_7_.X",
+          "_7_.B2",
+          "_7_.A1",
+          "in [0]",
+          "in [3]"
+        ],
+        "sa0" : [
+
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          3
+        ]
+      ],
+      "goldenOutput" : "1",
+      "coverage" : {
+        "sa1" : [
+
+        ],
+        "sa0" : [
+          "in [1]",
+          "out",
+          "_7_.X",
+          "_7_.A1",
+          "in [0]",
+          "_7_.A2"
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          9
+        ]
+      ],
+      "goldenOutput" : "0",
+      "coverage" : {
+        "sa1" : [
+          "in [1]",
+          "out",
+          "_7_.X",
+          "in [2]",
+          "_7_.B1",
+          "_7_.A2"
+        ],
+        "sa0" : [
+
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          4
+        ]
+      ],
+      "goldenOutput" : "0",
+      "coverage" : {
+        "sa1" : [
+          "out",
+          "_7_.X",
+          "_7_.B2",
+          "in [3]"
+        ],
+        "sa0" : [
+
+        ]
+      }
+    },
+    {
+      "vector" : [
+        [
+          "+",
+          2
+        ]
+      ],
+      "goldenOutput" : "0",
+      "coverage" : {
+        "sa0" : [
+
+        ],
+        "sa1" : [
+          "out",
+          "_7_.X",
+          "_7_.A1",
+          "in [0]"
+        ]
+      }
+    }
+  ],
+  "outputs" : [
+    {
+      "to" : 0,
+      "ordinal" : 2,
+      "name" : "out",
+      "polarity" : "output",
+      "from" : 0
+    }
+  ]
+}
